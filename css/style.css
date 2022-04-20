@@ -72,3 +72,63 @@ body {
 .btn:hover {
     opacity: 0.7;
 }
+
+/* Contact Page Styling */
+#contact > h2 {
+    font-size: 3rem;
+}
+
+#contact span {
+    color: var(--secondary-color);
+}
+
+section #form-section {
+    width: 100%;
+}
+
+#contact input, #contact textarea, #contact label {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: .9rem;
+}
+
+#contact input, #contact textarea {
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+}
+
+#contact input {
+    height: 40px;
+    padding-left: .5rem;
+   
+}
+
+#contact textarea {
+    height: 60px;
+    padding: 1rem .5rem; 
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+}
+
+.submit {
+    width: 30%;
+    margin: auto auto;
+}
+
+.submit input {
+    background: var(--secondary-color);
+    color: #fff;
+    
+    border: none !important;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.submit input:hover {
+    opacity: 0.8;
+}
